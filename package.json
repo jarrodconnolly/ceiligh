@@ -1,0 +1,34 @@
+{
+  "name": "ceiligh",
+  "version": "0.1.0",
+  "description": "CLI Framework",
+  "author": {
+    "name": "Jarrod Connolly",
+    "email": "jarrod@nestedquotes.ca"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.18.2"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --config .eslintrc.js .",
+    "release": "standard-version --sign",
+    "test": "tap"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "framework"
+  ],
+  "files": [
+    "index.js",
+    "/lib"
+  ],
+  "devDependencies": {
+    "@types/node": "17.0.0",
+    "eslint": "8.4.1",
+    "standard-version": "9.3.2",
+    "tap": "15.1.5"
+  }
+}
